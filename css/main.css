@@ -1,0 +1,120 @@
+/*monochrome colors used: #29387f, #9EAFFF, # 5270FF#, #4F587F, 425ACC*/
+* {
+    box-sizing: border-box;
+}
+.bimg{
+    background-image: url(../img/bgimg.jpg);
+    
+}
+.widget{
+    
+    max-width: 45rem;
+    width:45rem;
+    padding: 0 5rem;
+    margin: 0 auto;
+    font-family: 'Gentium Book Basic', serif;
+    line-height: 2;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+p, ul, h3{
+    font-family: 'Gentium Book Basic', serif;
+    color: white;
+    font-size: 18px;
+    
+}
+
+ul{
+    margin: 40px;
+  
+}
+
+ul li{
+    width: 100%;
+    list-style: none;
+    min-width: 200px;
+    text-align: left;
+    font-size:20px; 
+}
+
+ul li:before { 
+    content:"\00bb"; 
+}
+
+.main{
+    padding: 0 40px;
+}
+
+[type="button"] {
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: rem;
+    padding: 1rem;
+    border: 5px solid #425ACC;
+    background-color: white;
+    color: #29387F;
+    width:100%;
+    
+   
+    
+}
+[type="button"]:hover {
+    border: 5px solid #425ACC;
+    background-color: #5270FF;
+    color: white;
+}
+[type="button"]:active {
+    border: 1px solid #425ACC;
+    color: #29387F;
+   
+}
+
+[type="text"] {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    padding: 1rem;
+    border: 1px solid  #29387F;
+    width:100%;
+    margin-bottom:30px;
+    text-align: left;
+}
+
+.social{
+  width: 100%;
+  margin-top: 50px;
+  font-size: 2rem;
+}
+.fa{
+  padding:10px;
+  width:50px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 20px;
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #5270FF;
+  color: white;
+}
+
+.fa-twitter {
+  background: #5270FF;
+  color: white;
+}
+.fa-instagram {
+  background: #5270FF;
+  color: white;
+  }
+
+
